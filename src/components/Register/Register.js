@@ -23,7 +23,7 @@ class Register extends React.Component {
   }
 
   onSubmitSignIn = () => {
-    fetch('https://5000-efd37aaa-c74c-4853-a788-2168aa5cd8a0.ws-us02.gitpod.io/signup', {
+    fetch('https://gfacdserver.herokuapp.com/signup', {
       method: 'post',
       headers: {'Content-Type': 'application/json'},
       body: JSON.stringify({
