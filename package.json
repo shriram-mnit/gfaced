@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "faced",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,7 +13,7 @@
   },
   "scripts": {
     "start": "node ./backend/app.js",
-        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run build",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
@@ -33,6 +33,6 @@
   },
   "homepage": "https://github.com/aneagoie/face-recognition-brain#readme",
   "engines": {
-        "node": "10.16.0"
-    }
+    "node": "10.16.0"
+  }
 }

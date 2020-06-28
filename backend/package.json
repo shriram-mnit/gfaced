@@ -1,5 +1,5 @@
 {
-  "name": "gfaced",
+  "name": "backend",
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
@@ -22,5 +22,6 @@
     "url": "https://github.com/shriram-mnit/gfaced/issues"
   },
   "homepage": "https://github.com/shriram-mnit/gfaced#readme",
+  "devDependencies": {},
   "description": ""
 }
