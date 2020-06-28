@@ -12,9 +12,9 @@ mongoose.connect(MONGOURI,{
 	 useNewUrlParser:true,
 	useUnifiedTopology:true
 })
-app.use(express.static(path.join(__dirname, '../static/')))
+app.use(express.static(path.join(__dirname, '../build/static)))
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../static'))
+    res.sendFile(path.join(__dirname, '../build/'))
 })
 
 mongoose.connection.on('connected',()=>{
