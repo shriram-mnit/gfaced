@@ -18,21 +18,20 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "proxy": "http://localhost:5000",
   "description": "Final project for Udemy course",
   "main": "index.js",
   "devDependencies": {},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/aneagoie/face-recognition-brain.git"
-  },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/aneagoie/face-recognition-brain/issues"
-  },
-  "homepage": "https://github.com/aneagoie/face-recognition-brain#readme",
   "engines": {
     "node": "10.16.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shriram-mnit/gfaced.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shriram-mnit/gfaced/issues"
+  },
+  "homepage": "https://github.com/shriram-mnit/gfaced#readme"
 }
