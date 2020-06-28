@@ -13,10 +13,11 @@
   },
   "scripts": {
     "start": "node ./backend/app.js",
-        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build",
+        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install && npm run build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+    "run"
   },
   "proxy": "http://localhost:5000",
   "description": "Final project for Udemy course",
