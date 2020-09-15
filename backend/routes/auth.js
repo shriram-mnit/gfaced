@@ -38,6 +38,7 @@ router.post('/signup',(req,res)=>{
 				res.json({savedUser})
 			})
 			.catch(err=>{
+				console.log("hello this server")
 				console.log(err)
 			})
 			         
