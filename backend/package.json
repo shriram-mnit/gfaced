@@ -2,7 +2,7 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "app.js",
-  "homepage":"https://gfaced.herokuapp.com/",
+  "homepage":"https://gfaced.herokuapp.com",
   "scripts": {
     "start": "node app.js"
   },
