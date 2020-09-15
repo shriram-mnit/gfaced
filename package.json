@@ -2,6 +2,7 @@
   "name": "faced",
   "version": "0.1.0",
   "private": true,
+  "homepage":"https://gfaced.herokuapp.com/",
   "dependencies": {
     "clarifai": "^2.5.0",
     "react": "^16.2.0",
