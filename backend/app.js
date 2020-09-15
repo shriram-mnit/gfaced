@@ -14,7 +14,7 @@ mongoose.connect(MONGOURI,{
 })
 app.use(express.static(path.join(__dirname, '../shriram-mnit/gfaced/')))
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../shriram-mnit/gfaced/'))
+    res.sendFile(path.join(__dirname, '../'))
 })
 
 mongoose.connection.on('connected',()=>{
